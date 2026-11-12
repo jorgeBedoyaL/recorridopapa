@@ -1,0 +1,460 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ruta papal | Lima · 12 noviembre 2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><style>
+:root{--ink:#24362e;--deep:#172b28;--gold:#c39b54;--paper:#f7f7f2;--muted:#61736d;--line:#e3e8e2}*{box-sizing:border-box}body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:var(--ink);background:#edf1eb}.app{height:100dvh;min-height:520px;display:flex;flex-direction:column}.top{height:76px;flex:none;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 25px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px}.seal{width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-size:25px}.eyebrow{font-size:10px;letter-spacing:1.6px;font-weight:800;color:#a47d3d}.brand h1{font-size:21px;line-height:1.3;margin:2px 0 0;letter-spacing:-.5px}.brand h1 span{font-weight:400;color:#74877e}.headright{display:flex;align-items:center;gap:18px}.date{font-size:12px;font-weight:700;color:#65786d}.hamburger{border:1px solid var(--line);background:#fff;padding:9px 13px;border-radius:9px;cursor:pointer;font-size:17px}.notice{background:#fdf8e9;border-bottom:1px solid #eadfc0;padding:9px 25px;font-size:11px;color:#635334}.notice span{color:#bf963a;padding-right:8px}main{display:flex;min-height:0;flex:1}.sidebar{width:355px;flex:none;overflow-y:auto;background:#fff;border-right:1px solid var(--line);box-shadow:2px 0 12px #172b2810;z-index:500}.sidebar.closed{display:none}.section{padding:21px 20px 15px}.secthead{display:flex;justify-content:space-between;gap:6px;align-items:center}.pill{font-size:10px;padding:5px 8px;background:#edf4ef;color:#527060;border-radius:20px}.section h2{font-size:21px;margin:10px 0 4px}.sub{font-size:12px;color:#87958d;margin:0 0 20px}.activity{width:100%;display:flex;text-align:left;align-items:flex-start;gap:12px;background:white;border:1px solid #e4e9e3;border-radius:12px;padding:12px 11px;margin-bottom:9px;cursor:pointer;color:var(--ink);transition:.2s}.activity:hover,.activity.selected{border-color:var(--gold);background:#fffcf5}.time{min-width:62px;font-size:12px;color:#a37b39;font-weight:800}.activity strong{font-size:12px;display:block;line-height:1.45}.activity small{font-size:11px;color:#7e8f86;display:block;margin-top:4px}.routebox{background:#f4f7f3;border-top:1px solid var(--line)}.routebox h3{font-size:16px;margin:8px 0}.routebox p{font-size:12px;line-height:1.7;color:#5d6d65}.primary,.secondary,.smallbutton{cursor:pointer;border-radius:8px;font-size:12px;font-weight:800;padding:10px 12px}.primary{background:#1f5244;border:0;color:white;margin:4px 6px 0 0}.secondary{border:1px solid #aec5b8;background:#fff;color:#285d48;margin-top:5px}.source{padding:15px 20px 24px;font-size:10px;line-height:1.8;color:#79867f}.source a{color:#427a60}.mapwrap{min-width:0;flex:1;position:relative}#map{height:100%;width:100%;background:#e6ece5}.maptools,.legend{position:absolute;z-index:450;background:#fff;box-shadow:0 6px 25px #1e342321;border:1px solid #e2e9e2;border-radius:12px}.maptools{top:17px;right:17px;width:194px;padding:15px}.toolheading{font-size:10px;font-weight:800;letter-spacing:1.5px;margin-bottom:11px}.maptools label{font-size:11px;display:block;margin:9px 0;cursor:pointer}.maptools input{accent-color:#1f6a52;vertical-align:middle}.smallhr{border-top:1px solid #e6ece7;margin:13px 0}.maptools select{display:block;width:100%;margin:9px 0;font:inherit;font-size:11px;padding:8px;border:1px solid #dbe5dc;background:#fff;border-radius:8px}.smallbutton{background:#f5f8f5;border:1px solid #dae7dc;font-size:11px;width:100%;padding:8px}.legend{bottom:25px;left:20px;padding:13px 16px;font-size:11px;line-height:1.9}.legend b{font-size:10px;letter-spacing:1.4px}.line{display:inline-block;width:22px;height:0;border-top:4px solid #2f8f83;vertical-align:middle;margin-right:8px;border-radius:5px}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:9px}.gold{background:#b7944e}.violet{background:#2f8f83}.muted{color:#9aaba0;font-size:10px;max-width:240px}footer{background:#fff;display:flex;justify-content:space-between;padding:8px 20px;color:#8a968e;font-size:10px;border-top:1px solid var(--line)}.leaflet-popup-content{font-family:'DM Sans',Arial,sans-serif;line-height:1.6}.number-marker{background:#234e42;border:3px solid white;color:white;box-shadow:0 2px 12px #0004;border-radius:50%;width:31px;height:31px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}.route-marker{background:#2f8f83;border:3px solid white;border-radius:50%;width:17px;height:17px;box-shadow:0 2px 7px #0004}.street-label{white-space:nowrap;font-size:11px;font-weight:800;color:#7c3777;background:#fffdf8f0;border:1px solid #d9b2d6;border-radius:12px;padding:5px 8px;box-shadow:0 1px 7px #0002}.leaflet-tooltip.street-tag{background:none;border:0;box-shadow:none;padding:0}.leaflet-tooltip.street-tag:before{display:none}@media(max-width:760px){.top{height:65px;padding:0 12px}.seal{width:36px;height:36px}.brand h1{font-size:16px}.brand h1 span{display:none}.date{font-size:10px;max-width:92px}.notice{font-size:10px;padding:7px 12px}.sidebar{position:absolute;top:100px;bottom:28px;left:0;width:min(350px,90vw)}.maptools{top:12px;right:10px;width:162px;padding:10px}.legend{left:9px;bottom:12px;padding:7px 10px;font-size:10px;max-width:220px}footer{font-size:9px}.mapwrap{width:100%}}
+
+
+/* Experiencia adaptable: escritorio, tablet y teléfonos */
+html,body{width:100%;max-width:100%;overflow:hidden}button,select{touch-action:manipulation}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #bd9a52;outline-offset:2px}.hamburger{min-width:44px;min-height:44px}.sidebar{overscroll-behavior:contain}.mapwrap{isolation:isolate}.maptools{max-height:calc(100% - 40px);overflow-y:auto}.activity{min-height:56px}.leaflet-container{font-family:'DM Sans',Arial,sans-serif}.leaflet-control-attribution{max-width:75vw;font-size:9px!important}
+.mobile-actions{display:none}.drawer-backdrop{display:none}.mobile-panel-title{display:none}.mobile-tools-toggle,.mobile-legend-toggle{display:none}
+@media(min-width:761px) and (max-width:1100px){.sidebar{width:310px}.top{padding:0 16px}.maptools{width:176px;right:11px}.legend{left:12px;bottom:12px}}
+@media(max-width:760px){
+ .app{height:100dvh;min-height:0;overflow:hidden}.top{height:auto;min-height:62px;padding:9px 12px;gap:8px}.brand{gap:8px;min-width:0;flex:1}.seal{flex:none;width:34px;height:34px;font-size:19px}.eyebrow{font-size:9px;letter-spacing:.8px}.brand h1{font-size:15px;line-height:1.15;margin:3px 0 0}.headright{gap:7px}.headright .date{display:none}.hamburger{display:none}.notice{padding:7px 12px;font-size:10px;line-height:1.4;max-height:54px;overflow-y:auto}main{flex:1;min-height:0;display:block;position:relative}.mapwrap{height:100%;width:100%}.sidebar{position:absolute;z-index:1100;top:0;bottom:0;left:0;width:min(365px,91vw);max-width:100vw;border:0;border-radius:0 16px 16px 0;box-shadow:8px 0 38px #10281f44;transform:translateX(0);transition:transform .22s ease;display:block!important}.sidebar.closed{transform:translateX(-105%);pointer-events:none}.section{padding:17px 15px 12px}.section h2{font-size:20px}.sub{margin-bottom:14px}.source{padding:15px}.activity{padding:12px 10px;min-height:58px}.time{min-width:53px}.mobile-panel-title{display:flex;position:sticky;top:0;background:#fff;z-index:1;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--line);font-size:13px;font-weight:800}.mobile-panel-title button{border:1px solid var(--line);background:#f4f7f3;border-radius:10px;min-width:42px;min-height:42px;font-size:20px}.drawer-backdrop.open{display:block;position:absolute;inset:0;background:#122b2352;z-index:1000}.mobile-actions{display:flex;align-items:center;gap:7px;margin-left:auto}.mobile-action{display:flex;align-items:center;justify-content:center;gap:6px;background:#f4f7f3;border:1px solid #dbe5dc;border-radius:10px;min-height:42px;padding:0 10px;font-family:inherit;font-weight:800;font-size:11px;color:#265543;cursor:pointer}.mobile-action[aria-expanded=true]{background:#e6f1ea;border-color:#80a38f}.maptools{display:none;top:9px;right:9px;left:auto;width:min(245px,calc(100vw - 18px));max-height:min(440px,calc(100% - 130px));padding:12px;box-shadow:0 10px 35px #142d2840}.maptools.mobile-open{display:block}.maptools label{font-size:13px;margin:12px 0;min-height:24px}.maptools input{width:16px;height:16px}.maptools select{font-size:13px;padding:11px}.toolheading{font-size:12px}.smallbutton{min-height:42px;font-size:12px}.legend{bottom:48px;left:9px;max-width:min(250px,calc(100vw - 75px));padding:9px 12px;font-size:10px;line-height:1.7}.legend .muted{font-size:9px}.legend.mobile-hidden{display:none}.mobile-legend-toggle{display:block;position:absolute;z-index:450;bottom:49px;left:9px;border:1px solid #e2e9e2;box-shadow:0 4px 14px #1e342321;background:#fff;padding:10px;border-radius:10px;font-size:11px;font-weight:800;color:#234e42}.mobile-legend-toggle[aria-expanded=true]{bottom:calc(48px + 112px)}.leaflet-bottom.leaflet-right{bottom:38px}.leaflet-control-zoom a{width:38px!important;height:38px!important;line-height:38px!important}.leaflet-popup-content-wrapper{max-width:calc(100vw - 60px)}footer{padding:5px 8px;gap:8px;font-size:9px;line-height:1.3}footer span:first-child{flex:1}footer span:last-child{display:none}
+}
+@media(max-width:380px){.brand h1{font-size:13px}.seal{width:30px;height:30px}.mobile-action{padding:0 7px;font-size:10px}.mobile-actions{gap:4px}.notice{font-size:9px}.legend{font-size:9px}}
+@media(max-height:650px) and (max-width:760px){.top{min-height:52px;padding:5px 9px}.mobile-action{min-height:38px}.notice{max-height:42px;padding:5px 9px}.legend{bottom:37px}.mobile-legend-toggle{bottom:38px}.leaflet-bottom.leaflet-right{bottom:28px}}
+@media(prefers-reduced-motion:reduce){.sidebar{transition:none!important}}
+
+/* El contenedor del mapa mantiene altura real en Safari iOS y Chrome Android. */
+html,body{height:100%;height:100dvh}
+.app{height:100vh;height:100dvh;min-height:0}
+main{min-height:0;height:0;flex:1 1 auto}
+.mapwrap{height:100%;min-height:0;position:relative;overflow:hidden}
+#map{position:absolute;inset:0;width:100%;height:100%;min-height:260px;z-index:0}
+@media(max-width:760px){main{height:0;flex:1 1 auto;min-height:0}.mapwrap{height:100%}.notice{flex:none}footer{flex:none}}
+.map-error{position:absolute;z-index:600;inset:0;display:flex;justify-content:center;align-items:center;padding:24px;background:#e7eee7;color:#254239}
+.map-error-content{max-width:330px;background:white;border-radius:15px;box-shadow:0 8px 22px #0002;padding:20px;text-align:center;font-size:13px;line-height:1.5}
+.map-error-content strong{font-size:16px;display:block;margin-bottom:10px}
+.transfer-line{display:inline-block;width:22px;height:0;border-top:4px dashed #2f8f83;vertical-align:middle;margin-right:8px} .number-marker{font-size:11px}
+/* Selector de jornada: los dos días nunca se dibujan a la vez */
+.day-switch{height:48px;flex:none;display:flex;justify-content:center;align-items:center;gap:8px;background:#fff;border-bottom:1px solid var(--line);padding:6px 12px}
+.day-btn{font:700 12px 'DM Sans',Arial,sans-serif;border:1px solid #cbdad0;background:#f5f8f5;color:#285442;border-radius:9px;padding:9px 16px;cursor:pointer;min-height:35px}
+.day-btn.active{background:#205340;border-color:#205340;color:white;box-shadow:0 2px 7px #0002}
+@media(max-width:760px){.day-switch{height:45px;gap:7px;padding:5px 8px}.day-btn{flex:1;padding:7px 6px;font-size:11px;min-width:0}.sidebar{top:0}}
+
+/* MAP-FIRST: paneles ocultos inicialmente para todo dispositivo */
+.mobile-actions{display:flex!important;gap:7px;align-items:center}
+.hamburger{display:none!important}
+.sidebar{position:absolute!important;top:0!important;bottom:0!important;left:0!important;width:min(355px,92vw)!important;display:block!important;transform:translateX(0);transition:transform .22s ease;z-index:1100}
+.sidebar.closed{transform:translateX(-108%)!important;pointer-events:none!important}
+.drawer-backdrop.open{display:block!important;position:absolute;inset:0;background:#132d243f;z-index:1000}
+.maptools{display:none!important;top:12px;right:12px;max-height:calc(100% - 25px);overflow-y:auto}
+.maptools.mobile-open{display:block!important}
+.legend.mobile-hidden{display:none!important}
+.mobile-legend-toggle{display:none!important}
+.mapwrap{width:100%;height:100%}
+@media(max-width:760px){.sidebar{width:min(350px,92vw)!important}.maptools{width:min(245px,calc(100vw - 22px));right:10px;top:10px}.top{gap:5px}.mobile-actions{gap:4px}.mobile-action{padding:0 7px;font-size:10px}.legend{bottom:12px;left:10px;max-width:calc(100vw - 80px)}.leaflet-bottom.leaflet-right{bottom:12px}}
+@media(max-width:390px){.mobile-action{font-size:9px;padding:0 5px}.eyebrow{font-size:8px}}
+
+/* La advertencia anterior al mapa se oculta: más superficie cartográfica. */
+#noticeDay{display:none!important}
+
+/* Tres jornadas: selector desplazable en pantallas estrechas sin reducir excesivamente los botones */
+.day-switch{overflow-x:auto;scrollbar-width:thin;justify-content:center;gap:7px;padding-inline:10px}
+.day-switch .day-btn{white-space:nowrap;flex:0 0 auto}
+@media(max-width:760px){.day-switch{justify-content:flex-start;gap:6px;padding:6px 8px}.day-switch .day-btn{font-size:10px;padding:9px 10px}}
+
+/* Navegación local del domingo: no superpone otras jornadas */
+.sunday-focus{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 7px}.sunday-focus[hidden]{display:none!important}.sunday-focus button{background:white;color:#205b52;border:1px solid #a9ccc5;border-radius:9px;font:700 11px inherit;padding:8px;cursor:pointer}.day-switch{overflow-x:auto;scrollbar-width:thin}.day-btn{flex:0 0 auto}@media(max-width:760px){.day-switch{justify-content:flex-start!important;overflow-x:auto;padding:6px 10px}.day-btn{font-size:10px!important;white-space:nowrap}}
+
+/* Cinco jornadas: selector desplazable en celulares sin comprimir textos ni tapar el mapa */
+@media(max-width:760px){.day-switch{justify-content:flex-start;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:thin}.day-btn{flex:0 0 auto;white-space:nowrap;scroll-snap-align:start;padding:7px 11px;font-size:10px}}
+</style></head><body><div class="app"><header class="top"><div class="brand"><div class="seal">✦</div><div><span class="eyebrow">VISITA APOSTÓLICA · PERÚ 2026</span><h1>Ruta de León XIV <span> / Lima</span></h1></div></div><div class="headright"><div class="mobile-actions"><button id="mobileAgenda" class="mobile-action" aria-controls="side" aria-expanded="false">☷ Agenda</button><button id="mobileLayers" class="mobile-action" aria-controls="maptools" aria-expanded="false">▧ Capas</button><button id="topLegend" class="mobile-action" aria-controls="legend" aria-expanded="false">◉ Leyenda</button></div><span class="date" id="dateTitle">Jueves 12 de noviembre de 2026</span><button id="toggleSide" class="hamburger" aria-label="Mostrar u ocultar panel">☰</button></div></header><nav class="day-switch" aria-label="Seleccionar día del recorrido"><button type="button" class="day-btn active" id="dayThu" aria-pressed="true">Jueves 12 · Lima</button><button type="button" class="day-btn" id="dayFri" aria-pressed="false">Viernes 13 · Chiclayo</button><button type="button" class="day-btn" id="daySat" aria-pressed="false">Sábado 14 · Cajamarca</button><button type="button" class="day-btn" id="daySun" aria-pressed="false">Domingo 15 · Cusco / Pucallpa</button><button type="button" class="day-btn" id="dayMon" aria-pressed="false">Lunes 16 · Lima / Callao</button></nav><div class="notice" id="noticeDay" hidden><span>●</span> Salida de la Nunciatura, tramo público en papamóvil y regreso referencial. No es seguimiento en vivo ni ruta vial confirmada para los traslados privados.</div><main><div id="drawerBackdrop" class="drawer-backdrop"></div><aside id="side" class="sidebar closed"><div class="mobile-panel-title"><span>Agenda y recorrido</span><button id="closeMobileAgenda" aria-label="Cerrar agenda">×</button></div><div class="section"><div class="secthead"><span class="eyebrow">CRONOGRAMA DEL DÍA</span><span class="pill">Hora Perú · UTC−5</span></div><h2 id="agendaTitle">Jornada en Lima</h2><p class="sub">Selecciona una actividad para ubicarla en el mapa.</p><div id="agenda"></div></div><div class="section routebox"><div class="eyebrow">RECORRIDO COMPLETO DEL DÍA</div><h3 id="routeTitle">Salida · Papamóvil · Vigilia · Retorno</h3><p id="routeDescription"><b>1. Salida:</b> Nunciatura Apostólica (Jesús María) → Centro Cívico, en auto cerrado. <b>2. Papamóvil:</b> Garcilaso de la Vega → Av. Tacna → Las Nazarenas → Conde de Superunda → Plaza Mayor. <b>3. Tarde:</b> traslado referencial hacia el Estadio Nacional para la vigilia de las 18:00. <b>4. Retorno:</b> regreso a la Nunciatura al finalizar las actividades, donde está previsto que pernocte. Los traslados privados se indican solamente con líneas esquemáticas; sus calles y horarios exactos no están publicados.</p><div id="sundayFocus" class="sunday-focus" hidden><button type="button" data-focus="all">Vista general</button><button type="button" data-focus="cusco">Ver Cusco</button><button type="button" data-focus="pucallpa">Ver Pucallpa</button></div><button class="primary" id="fitRoute">Ver el recorrido</button><button class="secondary" id="exportGeo">Exportar GeoJSON</button></div><div class="source">Fuentes: <a href="https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/09/21/260921e.html" target="_blank" rel="noopener">Santa Sede</a> · <a href="https://elperuano.pe/noticia/308665-rutas-del-papamovil-revisa-aqui-por-donde-pasara-el-papa-leon-xiv-para-bendecir-a-los-fieles" target="_blank" rel="noopener">El Peruano</a> · <a href="https://andina.pe/agencia/noticia-papa-leon-xiv-rutas-donde-pasara-papamovil-y-horas-las-actividades-oficiales-1099234.aspx" target="_blank" rel="noopener">Andina</a>.</div></aside><section class="mapwrap"><div id="map"></div><div id="maptools" class="maptools"><div class="toolheading">CAPAS DEL MAPA</div><label><input type="checkbox" id="showRoute" checked> Recorrido completo (incluye vigilia)</label><label><input type="checkbox" id="showStops" checked> Lugares y agenda</label><label><input type="checkbox" id="showLabels" checked> Etiquetas de avenidas y lugares</label><div class="smallhr"></div><span class="eyebrow">MAPA BASE</span><select id="basemap"><option value="street">Calles (Esri)</option><option value="sat">Satélite (Esri)</option><option value="topo">Topográfico (Esri)</option></select><button id="fitAll" class="smallbutton">Ver todos los lugares</button></div><button id="mobileLegend" class="mobile-legend-toggle" aria-controls="legend" aria-expanded="false">◉ Leyenda</button><div id="legend" class="legend mobile-hidden"><b>LEYENDA</b><div><span class="line"></span> Recorrido en verde turquesa (tramo anunciado)</div><div><span class="transfer-line"></span> Traslado a vigilia y retorno (referencial)</div><div><span class="dot gold"></span> Lugar de la agenda</div><div><span class="dot violet"></span> Punto del recorrido</div><div class="muted">Líneas y coordenadas aproximadas para orientación; la vigilia en el Estadio Nacional está incorporada a la agenda.</div></div></section></main><footer><span>Geoportal informativo · Coordenadas aproximadas y sin geolocalización en tiempo real.</span><span>Leaflet + Esri · EPSG:4326</span></footer></div><script>
+// Inicio móvil: el panel está cerrado desde el primer render, incluso antes de descargar Leaflet.
+// La vista inicial es solo el mapa, sin paneles, en todas las resoluciones.
+function iniciarGeoportal(){
+
+/* Coordenadas aproximadas destinadas a representación informativa, NO navegación oficial. */
+const nunciatura={name:'Nunciatura Apostólica · salida y descanso',lat:-12.0710,lng:-77.0413};
+const centroCivico={name:'Centro Cívico · cambio al papamóvil',lat:-12.05783,lng:-77.03801};
+const activities=[
+{id:0,time:'Sin hora',name:'Salida de la Nunciatura Apostólica',place:'Av. Salaverry 600, Jesús María · auto cerrado',lat:nunciatura.lat,lng:nunciatura.lng,detail:'Salida anunciada hacia el Centro Cívico; ni hora exacta ni calles de traslado confirmadas.'},
+{id:1,time:'09:30',name:'Encuentro con los obispos del Perú',place:'Capilla del Palacio Arzobispal',lat:-12.04535,lng:-77.03043,detail:'Actividad del programa oficial.'},
+{id:2,time:'10:20',name:'Celebración de la Hora Media',place:'Basílica Catedral de Lima',lat:-12.04562,lng:-77.03000,detail:'Celebración litúrgica según el programa oficial.'},
+{id:3,time:'11:30',name:'Encuentro con el pueblo peruano',place:'Plaza Mayor, frente a la Catedral',lat:-12.04515,lng:-77.03067,detail:'Actividad pública anunciada en la Plaza Mayor.'},
+{id:4,time:'18:00',name:'Vigilia con jóvenes y universitarios',place:'Estadio Nacional, Lima',lat:-12.06715,lng:-77.03378,detail:'Evento oficial de la tarde. Duración referencial de 18:00 a 19:30; el ingreso del público fue anunciado desde las 11:00 a. m.'},
+{id:5,time:'Al finalizar',name:'5 · Retorno a la Nunciatura Apostólica',place:'Desde el Estadio Nacional hacia Jesús María',lat:nunciatura.lat,lng:nunciatura.lng,detail:'Retorno y descanso en la Nunciatura Apostólica. Horario y calles del traslado no confirmados; línea referencial.'}
+];
+const routeStops=[
+{name:'Centro Cívico · cambio al papamóvil',lat:-12.05783,lng:-77.03801},
+{name:'Av. Garcilaso de la Vega · tramo anunciado',lat:-12.05655,lng:-77.03785},
+{name:'Av. Garcilaso / conexión referencial a Tacna',lat:-12.05295,lng:-77.03754},
+{name:'Av. Tacna · tramo anunciado',lat:-12.05165,lng:-77.03679},
+{name:'Monasterio de Las Nazarenas · parada anunciada',lat:-12.04969,lng:-77.03638},
+{name:'Av. Tacna / Jr. Conde de Superunda · referencia',lat:-12.04690,lng:-77.03557},
+{name:'Jr. Conde de Superunda · referencia',lat:-12.04650,lng:-77.03270},
+{name:'Plaza Mayor · destino del recorrido',lat:-12.04535,lng:-77.03133}
+];
+const lineCoords=routeStops.map(p=>[p.lat,p.lng]);
+const departureCoords=[[nunciatura.lat,nunciatura.lng],[centroCivico.lat,centroCivico.lng]];
+const stadiumTransferCoords=[[-12.04535,-77.03133],[-12.0524,-77.0322],[-12.0608,-77.0331],[-12.06715,-77.03378]];
+const returnCoords=[[-12.06715,-77.03378],[nunciatura.lat,nunciatura.lng]];
+const transferCoords=departureCoords.concat(stadiumTransferCoords,returnCoords); 
+const map=L.map('map',{zoomControl:false}).setView([-12.0505,-77.0345],15);
+L.control.zoom({position:'bottomright'}).addTo(map);
+// Etiquetas debajo de los marcadores: los números siempre quedan por delante.
+map.createPane('etiquetasLugares');
+map.getPane('etiquetasLugares').style.zIndex='590';
+map.getPane('etiquetasLugares').style.pointerEvents='none';
+// Capas base con servicios Esri; CARTO exige una clave en el acceso mostrado por el navegador del usuario.
+const esriBase='https://server.arcgisonline.com/ArcGIS/rest/services/';
+const tileSets={
+ street:L.tileLayer(esriBase+'World_Street_Map/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles © Esri',maxZoom:19}),
+ sat:L.tileLayer(esriBase+'World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Imagery © Esri',maxZoom:19}),
+ topo:L.tileLayer(esriBase+'World_Topo_Map/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles © Esri',maxZoom:19})
+};
+let basemapActual='street';
+const avisoMapa=document.createElement('div');
+avisoMapa.id='tileNotice';avisoMapa.setAttribute('role','status');
+avisoMapa.style.cssText='position:absolute;z-index:1000;left:12px;top:12px;max-width:min(380px,calc(100% - 24px));background:#fffbea;border:1px solid #e5ce87;color:#584820;padding:10px 12px;border-radius:9px;box-shadow:0 3px 10px #0002;font:12px Arial;display:none';
+document.querySelector('.mapwrap').appendChild(avisoMapa);
+function mensajeMapa(m){avisoMapa.textContent=m;avisoMapa.style.display='block';}
+function seleccionarBase(nombre){Object.values(tileSets).forEach(t=>{if(map.hasLayer(t))map.removeLayer(t)});basemapActual=nombre;tileSets[nombre].addTo(map);tileSets[nombre].bringToBack();document.querySelector('#basemap').value=nombre;}
+let fallbacksIntentados=new Set();
+Object.entries(tileSets).forEach(([key,layer])=>{
+ layer.on('tileload',()=>{if(basemapActual===key)avisoMapa.style.display='none'});
+ layer.on('tileerror',()=>{
+  if(basemapActual!==key||fallbacksIntentados.has(key))return;
+  fallbacksIntentados.add(key);
+  const next=key==='street'?'sat':key==='sat'?'topo':null;
+  if(next){mensajeMapa('No se cargó el mapa '+key+'. Probando otra cartografía automáticamente.');seleccionarBase(next)}
+  else mensajeMapa('No se pudieron cargar las imágenes de los mapas Esri. Revisa tu conexión o prueba de nuevo desde otro navegador o red; las capas del recorrido siguen funcionando.');
+ });
+});
+seleccionarBase('street');
+const lineLayer=L.layerGroup().addTo(map),transferLayer=L.layerGroup().addTo(map),stopLayer=L.layerGroup().addTo(map),labelLayer=L.layerGroup().addTo(map);
+L.polyline(departureCoords,{color:'#2f8f83',weight:4,opacity:.88,dashArray:'4,10'}).bindPopup('<b>Salida en auto cerrado</b><br>Nunciatura Apostólica → Centro Cívico. Línea recta esquemática, NO es una ruta de calles confirmada.').addTo(transferLayer);
+L.polyline(stadiumTransferCoords,{color:'#2f8f83',weight:4,opacity:.9,dashArray:'7,8'}).bindPopup('<b>Traslado referencial a la vigilia</b><br>Conexión esquemática desde la Plaza Mayor hacia el Estadio Nacional para el evento de las 18:00. No representa calles oficiales ni caravana confirmada.').addTo(transferLayer);
+L.polyline(returnCoords,{color:'#2f8f83',weight:4,opacity:.88,dashArray:'4,10'}).bindPopup('<b>Regreso a la Nunciatura</b><br>Conexión esquemática desde el Estadio Nacional hacia la residencia. Las calles y el horario de traslado NO están confirmados.').addTo(transferLayer);
+L.circleMarker([nunciatura.lat,nunciatura.lng],{radius:10,color:'#fff',weight:3,fillColor:'#1c6d99',fillOpacity:1}).bindPopup('<b>Nunciatura Apostólica</b><br>Av. Salaverry 600, Jesús María.<br>Salida anunciada y residencia para descanso.').addTo(transferLayer);
+const routeLine=L.polyline(lineCoords,{color:'#fff',weight:11,opacity:.9}).addTo(lineLayer);
+L.polyline(lineCoords,{color:'#2f8f83',weight:6,opacity:.95,dashArray:'11,7'}).bindPopup('<b>Recorrido del papamóvil</b><br>Trazado gráfico aproximado de las avenidas publicadas; no sustituye a un trazado vial oficial.').addTo(lineLayer);
+const iconNumber=n=>L.divIcon({html:`<div class="number-marker">${n}</div>`,className:'',iconSize:[31,31],iconAnchor:[15,15]});
+const iconRoute=()=>L.divIcon({html:'<div class="route-marker"></div>',className:'',iconSize:[17,17],iconAnchor:[9,9]});
+const bounds=[];
+activities.forEach(a=>{const marker=L.marker([a.lat,a.lng],{icon:iconNumber(a.id===0?'S':a.id)}).bindPopup(`<strong>${a.time} · ${a.name}</strong><br>${a.place}<br><small>${a.detail}</small>`).addTo(stopLayer);a.marker=marker;bounds.push([a.lat,a.lng]);});
+routeStops.forEach((p,i)=>{if([0,4,7].includes(i)){L.marker([p.lat,p.lng],{icon:iconRoute()}).bindPopup(`<b>${p.name}</b><br>Ubicación aproximada para visualización.`).addTo(stopLayer);}});
+[['Av. Garcilaso de la Vega',-12.05465,-77.0387,'center'],['Av. Tacna',-12.0508,-77.03755,'center'],['Jr. Conde de Superunda',-12.0464,-77.0333,'center'],['Nunciatura Apostólica',nunciatura.lat,nunciatura.lng,'top'],['Estadio Nacional',-12.06715,-77.03378,'top']].forEach(t=>L.marker([t[1],t[2]],{opacity:0,interactive:false}).bindTooltip(`<span class="street-label">${t[0]}</span>`,{permanent:true,direction:t[3],offset:t[3]==='top'?[0,-25]:[0,0],pane:'etiquetasLugares',className:'street-tag',opacity:1}).addTo(labelLayer));
+const fitRoute=()=>map.fitBounds(L.latLngBounds(lineCoords.concat(transferCoords)).pad(.16),{padding:[30,40]});document.querySelector('#fitRoute').onclick=fitRoute;
+document.querySelector('#fitAll').onclick=()=>map.fitBounds(L.latLngBounds(bounds.concat(lineCoords,transferCoords)).pad(.12));
+document.querySelector('#showRoute').onchange=e=>{if(e.target.checked){lineLayer.addTo(map);transferLayer.addTo(map)}else{map.removeLayer(lineLayer);map.removeLayer(transferLayer)}};
+
+document.querySelector('#showStops').onchange=e=>e.target.checked?stopLayer.addTo(map):map.removeLayer(stopLayer);
+document.querySelector('#showLabels').onchange=e=>e.target.checked?labelLayer.addTo(map):map.removeLayer(labelLayer);
+document.querySelector('#basemap').onchange=e=>{avisoMapa.style.display='none';fallbacksIntentados.clear();seleccionarBase(e.target.value);};
+document.querySelector('#toggleSide').onclick=()=>setDrawer(document.querySelector('#side').classList.contains('closed'));
+document.querySelector('#exportGeo').onclick=()=>{const fc={type:'FeatureCollection',features:[{type:'Feature',properties:{tipo:'trazado_referencial',fecha:'2026-11-12',aviso:'No es geometría vial oficial ni seguimiento en vivo',fuentes:'Santa Sede, Andina, El Peruano'},geometry:{type:'LineString',coordinates:routeStops.map(x=>[x.lng,x.lat])}},...[[departureCoords,'salida_auto_cerrado'],[stadiumTransferCoords,'traslado_vigilia_referencial'],[returnCoords,'regreso_referencial']].map(([coords,tipo])=>({type:'Feature',properties:{tipo,advertencia:'Línea esquemática. No representa ruta real o calles confirmadas.'},geometry:{type:'LineString',coordinates:coords.map(c=>[c[1],c[0]])}})),...activities.map(a=>({type:'Feature',properties:{tipo:'agenda',hora:a.time,actividad:a.name,lugar:a.place,nota:a.detail},geometry:{type:'Point',coordinates:[a.lng,a.lat]}}))]};const blob=new Blob([JSON.stringify(fc,null,2)],{type:'application/geo+json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='ruta_papal_lima_12nov2026_referencial.geojson';a.click();URL.revokeObjectURL(url)};
+// Paneles táctiles: accesibles sin invadir el mapa en pantallas pequeñas.
+const sidebar=document.querySelector('#side'), backdrop=document.querySelector('#drawerBackdrop'), agendaButton=document.querySelector('#mobileAgenda'), layerButton=document.querySelector('#mobileLayers'), toolsPanel=document.querySelector('#maptools'), legend=document.querySelector('#legend'), legendButton=document.querySelector('#mobileLegend'), topLegend=document.querySelector('#topLegend');
+function setDrawer(open){sidebar.classList.toggle('closed',!open);backdrop.classList.toggle('open',open);agendaButton.setAttribute('aria-expanded',String(open));if(open){setLayers(false);setLegend(false)}setTimeout(()=>{map.invalidateSize(true);fitDay()},280)}
+function setLayers(open){toolsPanel.classList.toggle('mobile-open',open);layerButton.setAttribute('aria-expanded',String(open));if(open){if(!sidebar.classList.contains('closed'))setDrawer(false);setLegend(false)}}
+function setLegend(open){legend.classList.toggle('mobile-hidden',!open);legendButton.setAttribute('aria-expanded',String(open));topLegend.setAttribute('aria-expanded',String(open));if(open){setLayers(false);if(!sidebar.classList.contains('closed'))setDrawer(false)}}
+agendaButton.addEventListener('click',()=>setDrawer(sidebar.classList.contains('closed')));
+document.querySelector('#closeMobileAgenda').addEventListener('click',()=>setDrawer(false));backdrop.addEventListener('click',()=>setDrawer(false));
+layerButton.addEventListener('click',()=>setLayers(!toolsPanel.classList.contains('mobile-open')));
+legendButton.addEventListener('click',()=>setLegend(legend.classList.contains('mobile-hidden')));topLegend.addEventListener('click',()=>setLegend(legend.classList.contains('mobile-hidden')));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){setDrawer(false);setLayers(false)}});
+window.addEventListener('resize',()=>{map.invalidateSize(true);fitDay()});
+
+
+// VIERNES 13: jornada separada y cartografía aproximada. Solo actividades y localidades verificadas.
+const fridayActivities=[
+ {id:'V1',time:'07:40',name:'Vuelo de Callao a Chiclayo',place:'Salida: Base Aérea del Callao · llegada: Chiclayo',lat:-6.787,lng:-79.829,originLat:-12.033,originLng:-77.118,detail:'El número 1 se muestra junto al aeropuerto de llegada para mantener visible toda la jornada del viernes. El avión sale del Callao; el marcador 1 no representa su ubicación de despegue.'},
+ {id:'V2',time:'09:10',name:'Llegada a Chiclayo',place:'Base Aérea Tte. Crl. Pedro Ruiz Gallo',lat:-6.787,lng:-79.829,detail:'Llegada oficial. Coordenadas de ubicación aproximada en Chiclayo.'},
+ {id:'V3',time:'10:30',name:'Santa Misa en Pampas de Pimentel',place:'Explanada de las Pampas de Pimentel',lat:-6.864,lng:-79.882,detail:'Explanada del evento, punto cartográfico solo orientativo: confirmar ingreso oficial antes de dirigirse al lugar.'},
+ {id:'V4',time:'12:40',name:'Visita privada a la capilla San Óscar A. Romero',place:'Distrito de La Victoria, Chiclayo',lat:-6.801,lng:-79.839,detail:'Visita privada. Marcador aproximado de distrito, no una dirección verificada de la capilla.'},
+ {id:'V5',time:'16:30',name:'Encuentro en el Santuario Nuestra Señora de la Paz',place:'Chiclayo',lat:-6.767,lng:-79.849,detail:'Encuentro con representantes de la Iglesia. Posición aproximada, sujeta a verificación.'},
+ {id:'V6',time:'17:45',name:'Encuentro con la comunidad universitaria',place:'Universidad Católica Santo Toribio de Mogrovejo (USAT)',lat:-6.757,lng:-79.862,detail:'Actividad de la universidad. Coordenadas orientativas de la zona.'},
+ {id:'V7',time:'19:00',name:'Cena con sacerdotes de Chiclayo',place:'Colegio Santo Toribio de Mogrovejo',lat:-6.773,lng:-79.844,detail:'Actividad privada publicada en el programa oficial; marcador aproximado.'}
+];
+const fridayLayer=L.layerGroup(),fridayLabels=L.layerGroup(),fridayRoute=L.layerGroup();
+const fridayPositions=fridayActivities.map(x=>[x.lat,x.lng]);
+fridayActivities.forEach((a,i)=>{
+ a.marker=L.marker([a.lat,a.lng],{icon:i===0?L.divIcon({html:'<div class="number-marker" style="background:#2f8f83;white-space:nowrap;width:59px;border-radius:18px">✈ 1</div>',className:'',iconSize:[59,31],iconAnchor:[65,15]}):iconNumber(i+1)}).bindPopup(`<strong>${a.time} · ${a.name}</strong><br>${a.place}<br><small>${a.detail}</small>`).addTo(fridayLayer);
+ if(i>0){L.marker([a.lat,a.lng],{opacity:0,interactive:false}).bindTooltip(`<span class="street-label">${i===1?'Base aérea Chiclayo':i===2?'Pampas de Pimentel':i===3?'Capilla San Óscar Romero':i===4?'Nuestra Señora de la Paz':i===5?'USAT':'Colegio Santo Toribio'}</span>`,{permanent:true,direction:'top',offset:[0,-25],pane:'etiquetasLugares',className:'street-tag',opacity:1}).addTo(fridayLabels);}
+});
+// El vuelo y desplazamientos se dibujan como conexiones esquemáticas, nunca como calles verificadas.
+// El vuelo Callao–Chiclayo se informa en la agenda, sin dibujar una línea que distorsione la vista de la ciudad.
+L.polyline(fridayPositions.slice(1),{color:'#2f8f83',weight:4,dashArray:'7,10',opacity:.9}).bindPopup('Traslados entre actividades. Conexión cartográfica esquemática: no es un trazado vial exacto ni una ruta para conducir.').addTo(fridayRoute);
+
+// SÁBADO 14 · Programa de la Santa Sede. Los marcadores sin sede exacta publicada son aproximaciones.
+const saturdayActivities=[
+ {id:'S1',time:'08:00',name:'Coronación de la Virgen Inmaculada',place:'Catedral de Santa María · Chiclayo',lat:-6.77170,lng:-79.83765,detail:'Rito de coronación en la Catedral de Santa María; lugar localizado aproximadamente.'},
+ {id:'S2',time:'09:10',name:'Salida en helicóptero hacia Santa Cruz',place:'Base Aérea de Chiclayo',lat:-6.787,lng:-79.829,detail:'Vuelo hacia Santa Cruz de Succhabamba. La línea aérea es referencial; no es una trayectoria oficial.'},
+ {id:'S3',time:'09:50',name:'Llegada a Santa Cruz de Succhabamba',place:'Helipuerto de Santa Cruz (posición aproximada)',lat:-6.62657,lng:-78.94422,detail:'El programa confirma un helipuerto; su ubicación exacta no está verificada. El marcador usa como referencia el centro de la ciudad.'},
+ {id:'S4',time:'11:00',name:'Santa Misa en Santa Cruz de Succhabamba',place:'Explanada de Santa Cruz · Cajamarca',lat:-6.6283,lng:-78.9440,detail:'Punto aproximado dentro de Santa Cruz de Succhabamba. La explanada exacta no está georreferenciada.'},
+ {id:'S5',time:'13:15',name:'Salida en helicóptero hacia Chiclayo',place:'Helipuerto de Santa Cruz (posición aproximada)',lat:-6.62657,lng:-78.94422,detail:'Regreso aéreo anunciado. El trayecto del helicóptero no está publicado.'},
+ {id:'S6',time:'14:00',name:'Llegada a Chiclayo',place:'Base Aérea Tte. Crl. Pedro Ruiz Gallo',lat:-6.787,lng:-79.829,detail:'Llegada desde Santa Cruz de Succhabamba, según el programa del Vaticano.'},
+ {id:'S7',time:'17:30',name:'Encuentro de oración por Santo Toribio',place:'Santuario Santo Toribio de Mogrovejo · Zaña',lat:-6.929,lng:-79.584,detail:'Acto de clausura del año jubilar. Coordenada orientativa de la zona de Zaña; no sustituye la dirección de acceso oficial.'}
+];
+const saturdayLayer=L.layerGroup(),saturdayLabels=L.layerGroup(),saturdayRoute=L.layerGroup();
+const satMarkerIcon=n=>L.divIcon({html:`<div class="number-marker" style="background:#2f8f83;white-space:nowrap;min-width:${String(n).length>1?43:31}px;width:max-content;padding:0 5px">${n}</div>`,className:'',iconSize:[String(n).length>1?46:31,31],iconAnchor:[String(n).length>1?23:15,15]});
+// Una ubicación para ambas operaciones de vuelo: 2/6 en Chiclayo y 3/5 en Santa Cruz.
+const satSites=[
+ {lat:-6.77170,lng:-79.83765,number:'1',label:'Catedral de Santa María',ids:['S1']},
+ {lat:-6.787,lng:-79.829,number:'2/6',label:'Base Aérea de Chiclayo',ids:['S2','S6']},
+ {lat:-6.62657,lng:-78.94422,number:'3/5',label:'Santa Cruz · helipuerto aprox.',ids:['S3','S5']},
+ {lat:-6.6283,lng:-78.9440,number:'4',label:'Explanada Santa Cruz',ids:['S4']},
+ {lat:-6.929,lng:-79.584,number:'7',label:'Santuario Santo Toribio · Zaña',ids:['S7']}
+];
+satSites.forEach((site,i)=>{
+ const detail=site.ids.map(id=>saturdayActivities.find(a=>a.id===id));
+ const marker=L.marker([site.lat,site.lng],{icon:satMarkerIcon(site.number),zIndexOffset:800})
+   .bindPopup(detail.map(a=>`<b>${a.time} · ${a.name}</b><br>${a.place}<br><small>${a.detail}</small>`).join('<hr>')).addTo(saturdayLayer);
+ detail.forEach(a=>a.marker=marker);
+ const direction=i===2?'right':i===3?'bottom':i===4?'top':'top';
+ L.marker([site.lat,site.lng],{opacity:0,interactive:false}).bindTooltip(`<span class="street-label">${site.label}</span>`,{permanent:true,direction,offset:direction==='top'?[0,-29]:direction==='bottom'?[0,29]:[20,0],pane:'etiquetasLugares',className:'street-tag',opacity:1}).addTo(saturdayLabels);
+});
+const saturdayFlightOut=[[-6.787,-79.829],[-6.62657,-78.94422]];
+const saturdayFlightBack=[[-6.62657,-78.94422],[-6.787,-79.829]];
+// Los helicópteros se muestran con líneas aéreas esquemáticas, no con recorridos verificables.
+L.polyline(saturdayFlightOut,{color:'#2f8f83',weight:4,dashArray:'9,12',opacity:.9}).bindPopup('Vuelo referencial de helicóptero Chiclayo → Santa Cruz. Sin trayectoria oficial publicada.').addTo(saturdayRoute);
+L.polyline(saturdayFlightBack,{color:'#2f8f83',weight:3,dashArray:'2,13',opacity:.8,offset:4}).bindPopup('Regreso referencial de helicóptero Santa Cruz → Chiclayo.').addTo(saturdayRoute);
+L.polyline([[-6.787,-79.829],[-6.929,-79.584]],{color:'#2f8f83',weight:4,dashArray:'7,10',opacity:.9}).bindPopup('Desplazamiento referencial desde Chiclayo hacia el santuario en Zaña. Las calles de traslado no han sido publicadas.').addTo(saturdayRoute);
+
+
+// DOMINGO 15 · Chiclayo → Cusco → Pucallpa → Callao (programa de la Santa Sede).
+// Las coordenadas del mapa son orientativas; las rutas aéreas se muestran como líneas rectas ilustrativas.
+const sundayActivities=[
+ {id:'D1',time:'07:50',name:'Vuelo desde Chiclayo hacia Cusco',place:'Base Aérea de Chiclayo',lat:-6.787,lng:-79.829,detail:'Salida anunciada. La línea aérea indica solo origen y destino; no representa el trayecto del avión.'},
+ {id:'D2',time:'10:00',name:'Llegada a Cusco',place:'Aeropuerto Alejandro Velasco Astete',lat:-13.5356,lng:-71.9436,detail:'Llegada programada al aeropuerto de Cusco.'},
+ {id:'D3',time:'10:30',name:'Encuentro con fieles y piedad popular',place:'Parque Arqueológico Nacional de Saqsaywaman',lat:-13.50901,lng:-71.98269,detail:'Punto aproximado de Saqsaywaman; no se ha publicado la ubicación exacta del escenario.'},
+ {id:'D4',time:'11:45',name:'Oración del Ángelus',place:'Plaza de la Basílica Catedral del Cusco',lat:-13.5161,lng:-71.9789,detail:'Actividad anunciada en la plaza frente a la Catedral del Cusco.'},
+ {id:'D5',time:'13:05',name:'Vuelo desde Cusco hacia Pucallpa',place:'Aeropuerto Alejandro Velasco Astete',lat:-13.5356,lng:-71.9436,detail:'Salida anunciada; el vuelo solo se representa por origen y destino.'},
+ {id:'D6',time:'14:30',name:'Llegada a Pucallpa',place:'Aeropuerto Capitán FAP David Abensur Rengifo',lat:-8.3779,lng:-74.5743,detail:'Coordenada aproximada del aeropuerto de Pucallpa.'},
+ {id:'D7',time:'15:00',name:'Encuentro con misioneros y pueblos amazónicos',place:'Malecón Puerto Callao · Yarinacocha',lat:-8.35479,lng:-74.57587,detail:'Marcador aproximado de Puerto Callao; el punto exacto del acto en el malecón no está georreferenciado.'},
+ {id:'D8',time:'16:45',name:'Santa Misa',place:'Villa Deportiva Regional Ucayali',lat:-8.40055,lng:-74.55877,detail:'Lugar identificado en Callería, Pucallpa. La entrada oficial no está confirmada.'},
+ {id:'D9',time:'19:05',name:'Vuelo de Pucallpa hacia Lima',place:'Aeropuerto de Pucallpa',lat:-8.3779,lng:-74.5743,detail:'Salida aérea anunciada hacia el Callao.'},
+ {id:'D10',time:'20:20',name:'Llegada a Lima / Callao',place:'Base Aérea del Callao · Grupo Aéreo N.º 8',lat:-12.033,lng:-77.118,detail:'Llegada oficial; coordenadas aproximadas de la zona aeroportuaria, no de una puerta de acceso.'}
+];
+const sundayLayer=L.layerGroup(),sundayLabels=L.layerGroup(),sundayRoute=L.layerGroup();
+const sundaySites=[
+ {number:'1',label:'✈ Chiclayo · salida',ids:['D1'],lat:-6.787,lng:-79.829},
+ {number:'2/5',label:'Aeropuerto Cusco',ids:['D2','D5'],lat:-13.5356,lng:-71.9436},
+ {number:'3',label:'Saqsaywaman',ids:['D3'],lat:-13.50901,lng:-71.98269},
+ {number:'4',label:'Catedral del Cusco',ids:['D4'],lat:-13.5161,lng:-71.9789},
+ {number:'6/9',label:'Aeropuerto Pucallpa',ids:['D6','D9'],lat:-8.3779,lng:-74.5743},
+ {number:'7',label:'Malecón Puerto Callao',ids:['D7'],lat:-8.35479,lng:-74.57587},
+ {number:'8',label:'Villa Deportiva Ucayali',ids:['D8'],lat:-8.40055,lng:-74.55877},
+ {number:'10',label:'✈ Base Aérea Callao',ids:['D10'],lat:-12.033,lng:-77.118}
+];
+sundaySites.forEach((site,i)=>{
+ const events=site.ids.map(id=>sundayActivities.find(a=>a.id===id));
+ const marker=L.marker([site.lat,site.lng],{icon:satMarkerIcon(site.number),zIndexOffset:900})
+  .bindPopup(events.map(a=>`<b>${a.time} · ${a.name}</b><br>${a.place}<br><small>${a.detail}</small>`).join('<hr>')).addTo(sundayLayer);
+ events.forEach(a=>a.marker=marker);
+ const direction=i===2?'left':i===3?'bottom':i===5?'right':'top';
+ const offsets={top:[0,-30],bottom:[0,32],left:[-26,0],right:[26,0]};
+ L.marker([site.lat,site.lng],{opacity:0,interactive:false}).bindTooltip(`<span class="street-label">${site.label}</span>`,{permanent:true,direction,offset:offsets[direction],pane:'etiquetasLugares',className:'street-tag',opacity:1}).addTo(sundayLabels);
+});
+const sundayFlights=[
+ [[-6.787,-79.829],[-13.5356,-71.9436]],
+ [[-13.5356,-71.9436],[-8.3779,-74.5743]],
+ [[-8.3779,-74.5743],[-12.033,-77.118]]
+];
+const sundayGround=[
+ [[-13.5356,-71.9436],[-13.50901,-71.98269],[-13.5161,-71.9789],[-13.5356,-71.9436]],
+ [[-8.3779,-74.5743],[-8.35479,-74.57587],[-8.40055,-74.55877],[-8.3779,-74.5743]]
+];
+sundayFlights.forEach((coords,i)=>L.polyline(coords,{color:'#2f8f83',weight:3,dashArray:'12,13',opacity:.78}).bindPopup(`Vuelo ${i+1} · conexión recta ilustrativa entre aeropuertos, NO ruta aérea real.`).addTo(sundayRoute));
+sundayGround.forEach((coords,i)=>L.polyline(coords,{color:'#2f8f83',weight:4,dashArray:'7,9',opacity:.9}).bindPopup(`Actividades en ${i===0?'Cusco':'Pucallpa'}. Conexión aproximada entre puntos, NO callejero de la comitiva.`).addTo(sundayRoute));
+
+// LUNES 16 · Lima y Callao. Horarios del programa oficial de la Santa Sede.
+// Las ubicaciones aproximadas son puntos ilustrativos, y las conexiones terrestres NO representan una ruta oficial.
+const mondayActivities=[
+ {id:'L1',time:'08:30',name:'Visita al hogar de adultos mayores',place:'Hermanitas de los Ancianos Desamparados · Jr. Constitución 779, Callao',lat:-12.0600,lng:-77.1390,detail:'Visita al personal y residentes del hogar Virgen de los Desamparados. Ubicación del marcador aproximada; dirección verificada en el Callao.'},
+ {id:'L2',time:'10:30',name:'Santa Misa en la Base Aérea Las Palmas',place:'Base Aérea Las Palmas · Santiago de Surco',lat:-12.1607,lng:-76.99894,detail:'Misa anunciada para las 10:30. Marcador aproximado dentro del complejo, no indica acceso, escenario ni ingreso autorizado.'},
+ {id:'L3',time:'13:15',name:'Ceremonia de despedida',place:'Base Aérea del Callao · Grupo Aéreo N.º 8',lat:-12.033,lng:-77.118,detail:'Ceremonia anunciada por la Santa Sede. Marcador aproximado del sector aeroportuario, no del punto exacto de ceremonia.'},
+ {id:'L4',time:'13:45',name:'Salida en avión hacia Roma',place:'Base Aérea del Callao · Grupo Aéreo N.º 8',lat:-12.033,lng:-77.118,detail:'Vuelo de salida hacia Roma. El punto comparte ubicación con la despedida; no se dibuja una trayectoria aérea supuesta.'}
+];
+const mondayLayer=L.layerGroup(),mondayLabels=L.layerGroup(),mondayRoute=L.layerGroup();
+const mondaySites=[
+ {number:'1',label:'Hogar de las Hermanitas · Callao',ids:['L1'],lat:-12.0600,lng:-77.1390,direction:'top',offset:[0,-28]},
+ {number:'2',label:'Base Aérea Las Palmas',ids:['L2'],lat:-12.1607,lng:-76.99894,direction:'top',offset:[0,-28]},
+ {number:'3 / 4',label:'Base Aérea del Callao · salida a Roma',ids:['L3','L4'],lat:-12.033,lng:-77.118,direction:'top',offset:[0,-30]}
+];
+mondaySites.forEach(site=>{
+ const events=site.ids.map(id=>mondayActivities.find(a=>a.id===id));
+ const marker=L.marker([site.lat,site.lng],{icon:satMarkerIcon(site.number),zIndexOffset:950})
+ .bindPopup(events.map(a=>`<b>${a.time} · ${a.name}</b><br>${a.place}<br><small>${a.detail}</small>`).join('<hr>')).addTo(mondayLayer);
+ events.forEach(a=>a.marker=marker);
+ L.marker([site.lat,site.lng],{opacity:0,interactive:false}).bindTooltip(`<span class="street-label">${site.label}</span>`,{permanent:true,direction:site.direction,offset:site.offset,pane:'etiquetasLugares',className:'street-tag',opacity:1}).addTo(mondayLabels);
+});
+const mondayGround=[[mondayActivities[0].lat,mondayActivities[0].lng],[mondayActivities[1].lat,mondayActivities[1].lng],[mondayActivities[2].lat,mondayActivities[2].lng]];
+L.polyline(mondayGround,{color:'#2f8f83',weight:4,dashArray:'8,10',opacity:.92})
+ .bindPopup('<b>Lunes · traslados terrestres referenciales</b><br>Callao → Base Aérea Las Palmas → Base Aérea del Callao. Los segmentos rectos no son calles ni itinerarios de la comitiva.').addTo(mondayRoute);
+
+let selectedDay='thu';
+const routeTextThursday=document.querySelector('#routeDescription').innerHTML;
+const noticeThursday=document.querySelector('#noticeDay').innerHTML;
+const agenda=document.querySelector('#agenda');
+function buildAgenda(day){
+ agenda.replaceChildren();
+ const list=day==='thu'?activities:day==='fri'?fridayActivities:day==='sat'?saturdayActivities:day==='sun'?sundayActivities:mondayActivities;
+ list.forEach(a=>{
+  const b=document.createElement('button');b.className='activity';
+  const tt=document.createElement('span');tt.className='time';tt.textContent=a.time;
+  const wrap=document.createElement('span'),name=document.createElement('strong'),place=document.createElement('small');
+  name.textContent=a.name;place.textContent=a.place;wrap.append(name,place);b.append(tt,wrap);
+  b.addEventListener('click',()=>{agenda.querySelectorAll('.activity').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');map.flyTo([a.lat,a.lng],day==='fri'&&a.id==='V1'?13:day==='sat'?12:day==='sun'?13:day==='mon'?13:14,{duration:.7});a.marker.openPopup();if(window.matchMedia('(max-width:760px)').matches)setDrawer(false)});
+  agenda.appendChild(b);
+ });
+}
+const showThu=()=>{
+ for(const lay of [fridayLayer,fridayLabels,fridayRoute,saturdayLayer,saturdayLabels,saturdayRoute,sundayLayer,sundayLabels,sundayRoute,mondayLayer,mondayLabels,mondayRoute])map.removeLayer(lay);
+ if(document.querySelector('#showRoute').checked){lineLayer.addTo(map);transferLayer.addTo(map)}else{map.removeLayer(lineLayer);map.removeLayer(transferLayer)}
+ if(document.querySelector('#showStops').checked)stopLayer.addTo(map);else map.removeLayer(stopLayer);
+ if(document.querySelector('#showLabels').checked)labelLayer.addTo(map);else map.removeLayer(labelLayer);
+};
+const showFri=()=>{
+ for(const lay of [lineLayer,transferLayer,stopLayer,labelLayer,saturdayLayer,saturdayLabels,saturdayRoute,sundayLayer,sundayLabels,sundayRoute,mondayLayer,mondayLabels,mondayRoute])map.removeLayer(lay);
+ if(document.querySelector('#showRoute').checked)fridayRoute.addTo(map);else map.removeLayer(fridayRoute);
+ if(document.querySelector('#showStops').checked)fridayLayer.addTo(map);else map.removeLayer(fridayLayer);
+ if(document.querySelector('#showLabels').checked)fridayLabels.addTo(map);else map.removeLayer(fridayLabels);
+};
+const showSat=()=>{
+ for(const lay of [lineLayer,transferLayer,stopLayer,labelLayer,fridayLayer,fridayLabels,fridayRoute,sundayLayer,sundayLabels,sundayRoute,mondayLayer,mondayLabels,mondayRoute])map.removeLayer(lay);
+ if(document.querySelector('#showRoute').checked)saturdayRoute.addTo(map);else map.removeLayer(saturdayRoute);
+ if(document.querySelector('#showStops').checked)saturdayLayer.addTo(map);else map.removeLayer(saturdayLayer);
+ if(document.querySelector('#showLabels').checked)saturdayLabels.addTo(map);else map.removeLayer(saturdayLabels);
+};
+const showSun=()=>{
+ for(const lay of [lineLayer,transferLayer,stopLayer,labelLayer,fridayLayer,fridayLabels,fridayRoute,saturdayLayer,saturdayLabels,saturdayRoute,mondayLayer,mondayLabels,mondayRoute])map.removeLayer(lay);
+ if(document.querySelector('#showRoute').checked)sundayRoute.addTo(map);else map.removeLayer(sundayRoute);
+ if(document.querySelector('#showStops').checked)sundayLayer.addTo(map);else map.removeLayer(sundayLayer);
+ if(document.querySelector('#showLabels').checked)sundayLabels.addTo(map);else map.removeLayer(sundayLabels);
+};
+const showMon=()=>{
+ for(const lay of [lineLayer,transferLayer,stopLayer,labelLayer,fridayLayer,fridayLabels,fridayRoute,saturdayLayer,saturdayLabels,saturdayRoute,sundayLayer,sundayLabels,sundayRoute])map.removeLayer(lay);
+ if(document.querySelector('#showRoute').checked)mondayRoute.addTo(map);else map.removeLayer(mondayRoute);
+ if(document.querySelector('#showStops').checked)mondayLayer.addTo(map);else map.removeLayer(mondayLayer);
+ if(document.querySelector('#showLabels').checked)mondayLabels.addTo(map);else map.removeLayer(mondayLabels);
+};
+function focusSunday(area){
+ map.invalidateSize(true);
+ if(area==='cusco')map.fitBounds([[-13.551,-72.006],[-13.490,-71.919]],{padding:[26,30],maxZoom:14,animate:false});
+ else if(area==='pucallpa')map.fitBounds([[-8.417,-74.605],[-8.336,-74.537]],{padding:[26,30],maxZoom:14,animate:false});
+ else map.fitBounds([[-13.75,-80.08],[-6.45,-71.66]],{padding:[25,25],animate:false,maxZoom:7});
+}
+document.querySelectorAll('#sundayFocus [data-focus]').forEach(btn=>btn.onclick=()=>focusSunday(btn.dataset.focus));
+// Ajuste automático del zoom al tramo local de cada jornada (sin incluir el vuelo Callao–Chiclayo).
+// Mantiene todos los hitos a la vista y aprovecha mejor la superficie cartográfica en móvil y escritorio.
+function fitDay(){
+ map.invalidateSize(true);
+ const movil=window.matchMedia('(max-width:760px)').matches;
+ if(selectedDay==='sun'){focusSunday('all');return;}
+ if(selectedDay==='mon'){
+  map.fitBounds([[-12.177,-77.161],[-12.019,-76.984]],{padding:movil?[18,14]:[36,42],maxZoom:13,animate:false});
+  return;
+ }
+ if(selectedDay==='sat'){
+  // Tres localidades y vuelos: priorizar la vista completa del sábado sin mezclar con viernes.
+  const satBounds=L.latLngBounds([[-6.949,-79.864],[-6.597,-78.911]]);
+  map.fitBounds(satBounds,{padding:movil?[18,12]:[36,45],maxZoom:11,animate:false});
+  return;
+ }
+ if(selectedDay==='fri'){
+  // Encuadre inicial fijo para el viernes, siguiendo la vista solicitada por Jorge:
+  // Pampas de Pimentel abajo a la izquierda y actividades de Chiclayo visibles arriba.
+  const fridayBounds=L.latLngBounds([[-6.8725,-79.8885],[-6.7525,-79.8215]]);
+  map.fitBounds(fridayBounds,{padding:movil?[10,10]:[24,24],maxZoom:13,animate:false});
+  return;
+ }
+ const padding=movil?[34,23]:[38,42];
+ const puntos=bounds.concat(lineCoords,transferCoords);
+ map.fitBounds(L.latLngBounds(puntos),{padding:padding,maxZoom:15,animate:false});
+}
+function selectDay(day){
+ selectedDay=day;
+ for(const [code,id] of [['thu','dayThu'],['fri','dayFri'],['sat','daySat'],['sun','daySun'],['mon','dayMon']]){
+  const button=document.getElementById(id);button.classList.toggle('active',day===code);
+  button.setAttribute('aria-pressed',String(day===code));
+ }
+ const titles={thu:'Jueves 12 de noviembre de 2026',fri:'Viernes 13 de noviembre de 2026',sat:'Sábado 14 de noviembre de 2026',sun:'Domingo 15 de noviembre de 2026',mon:'Lunes 16 de noviembre de 2026'};
+ const locations={thu:'Jornada en Lima',fri:'Jornada en Chiclayo y Pimentel',sat:'Jornada en Chiclayo, Santa Cruz y Zaña',sun:'Jornada en Cusco y Pucallpa',mon:'Jornada en Lima y Callao'};
+ document.querySelector('#dateTitle').textContent=titles[day];
+ document.querySelector('#agendaTitle').textContent=locations[day];
+ document.querySelector('.brand h1 span').textContent=day==='thu'?' / Lima':day==='fri'?' / Chiclayo':day==='sat'?' / Chiclayo · Cajamarca':day==='sun'?' / Cusco · Pucallpa':' / Lima · Callao';
+ document.querySelector('#routeTitle').textContent=day==='thu'?'Salida · Papamóvil · Vigilia · Retorno':day==='fri'?'Callao · Chiclayo · Pimentel · Chiclayo':day==='sat'?'Chiclayo · Santa Cruz · Zaña':day==='sun'?'Chiclayo · Cusco · Pucallpa · Callao':'Callao · Las Palmas · Callao · Roma';
+ document.querySelector('#routeDescription').innerHTML=day==='thu'?routeTextThursday:
+ day==='fri'?'<b>07:40:</b> vuelo desde Callao. <b>09:10:</b> llegada a Chiclayo. <b>10:30:</b> misa en Pampas de Pimentel. <b>12:40:</b> capilla San Óscar Romero. <b>16:30:</b> Nuestra Señora de la Paz. <b>17:45:</b> USAT. <b>19:00:</b> Colegio Santo Toribio. El papamóvil se anuncia para el ingreso a Pampas de Pimentel; las líneas son aproximaciones entre ubicaciones, no rutas viales oficiales.':
+ day==='sat'?'<b>08:00:</b> coronación en la Catedral de Santa María (Chiclayo). <b>09:10:</b> salida en helicóptero. <b>09:50:</b> llegada a Santa Cruz de Succhabamba. <b>11:00:</b> misa en la explanada. <b>13:15:</b> retorno en helicóptero. <b>14:00:</b> llegada a Chiclayo. <b>17:30:</b> encuentro de oración en el Santuario Santo Toribio de Mogrovejo, Zaña. Las líneas aéreas y terrestres son aproximaciones ilustrativas, no recorridos oficiales.':
+ day==='sun'?'<b>07:50:</b> vuelo de Chiclayo a Cusco. <b>10:00:</b> llegada a Cusco. <b>10:30:</b> encuentro en Saqsaywaman. <b>11:45:</b> Ángelus en la Catedral. <b>13:05:</b> vuelo a Pucallpa. <b>14:30:</b> llegada a Pucallpa. <b>15:00:</b> encuentro en el Malecón Puerto Callao. <b>16:45:</b> misa en la Villa Deportiva Regional Ucayali. <b>19:05:</b> vuelo a Lima. <b>20:20:</b> llegada a la Base Aérea del Callao. Los vuelos son líneas rectas informativas; las calles de traslado no se han publicado.':
+ '<b>08:30:</b> visita al hogar de las Hermanitas de los Ancianos Desamparados (Jr. Constitución 779, Callao). <b>10:30:</b> Santa Misa en la Base Aérea Las Palmas, Surco. <b>13:15:</b> despedida en la Base Aérea del Callao. <b>13:45:</b> vuelo hacia Roma. Los tramos entre puntos son conexiones esquemáticas, sin calles de la comitiva confirmadas.';
+ document.querySelector('#noticeDay').innerHTML=day==='thu'?noticeThursday:day==='fri'?'<span>●</span> Viernes: vuelo Lima–Chiclayo y actividades en Chiclayo/Pimentel. Los marcadores y enlaces son orientativos, sin seguimiento en tiempo real.':day==='sat'?'<span>●</span> Sábado: Chiclayo, Santa Cruz de Succhabamba y Zaña. Las conexiones son referenciales.':day==='sun'?'<span>●</span> Domingo: Chiclayo, Cusco, Pucallpa y Callao. Vuelos y desplazamientos referenciales.':'<span>●</span> Lunes: Callao, Las Palmas y salida a Roma. Traslados referenciales.';
+ document.querySelector('#showRoute').parentElement.lastChild.textContent=day==='thu'?' Recorrido completo (papamóvil y traslados)':day==='fri'?' Conexiones entre actividades (referenciales)':day==='sat'?' Vuelos y desplazamientos (referenciales)':day==='sun'?' Vuelos y traslados del domingo (referenciales)':' Traslados del lunes (referenciales)';
+ document.querySelector('#showLabels').parentElement.lastChild.textContent=day==='thu'?' Etiquetas de avenidas y lugares':day==='fri'?' Etiquetas de lugares del viernes':day==='sat'?' Etiquetas de lugares del sábado':day==='sun'?' Etiquetas de lugares del domingo':' Etiquetas de lugares del lunes';
+ const legends={
+  thu:'<b>LEYENDA · JUEVES</b><div><span class="line"></span> Recorrido en verde turquesa · Lima</div><div><span class="transfer-line"></span> Traslados en verde turquesa discontinuo</div><div><span class="dot gold"></span> Actividad programada</div><div class="muted">Nunciatura → Centro Cívico → Plaza Mayor → Estadio Nacional → Nunciatura</div>',
+  fri:'<b>LEYENDA · VIERNES</b><div><span class="transfer-line"></span> Recorrido turquesa · Chiclayo (referencial)</div><div><span class="dot gold"></span> Actividades y lugares</div><div class="muted">Vuelo desde Callao en la agenda. Los enlaces no son rutas viales oficiales.</div>',
+  sat:'<b>LEYENDA · SÁBADO</b><div><span class="transfer-line"></span> Helicóptero y traslados (referenciales)</div><div><span class="dot gold"></span> Actividades numeradas</div><div class="muted">Los números 2/6 y 3/5 corresponden a salidas y llegadas en un mismo lugar. El helipuerto se representa de forma aproximada.</div>',
+  sun:'<b>LEYENDA · DOMINGO</b><div><span class="transfer-line"></span> Vuelos y traslados esquemáticos</div><div><span class="dot gold"></span> Actividades numeradas</div><div class="muted">Los puntos 2/5 (Cusco) y 6/9 (Pucallpa) son aeropuertos compartidos en la secuencia. Selecciona Cusco o Pucallpa en la agenda para ampliar la vista.</div>',
+  mon:'<b>LEYENDA · LUNES</b><div><span class="transfer-line"></span> Traslados terrestres esquemáticos</div><div><span class="dot gold"></span> Actividades numeradas</div><div class="muted">1 Hogar · 2 Las Palmas · 3/4 Despedida y vuelo. No hay trazado vial oficial de los vehículos.</div>'
+ };
+ document.querySelector('#legend').innerHTML=legends[day];
+ buildAgenda(day);
+ document.querySelector('#sundayFocus').hidden=day!=='sun';
+ if(day==='thu')showThu();else if(day==='fri')showFri();else if(day==='sat')showSat();else if(day==='sun')showSun();else showMon();
+ setDrawer(false);setLayers(false);setLegend(false);
+ requestAnimationFrame(()=>{map.invalidateSize(true);fitDay()});
+}
+document.querySelector('#dayThu').onclick=()=>selectDay('thu');
+document.querySelector('#dayFri').onclick=()=>selectDay('fri');
+document.querySelector('#daySat').onclick=()=>selectDay('sat');
+document.querySelector('#daySun').onclick=()=>selectDay('sun');
+document.querySelector('#dayMon').onclick=()=>selectDay('mon');
+document.querySelector('#fitRoute').onclick=fitDay;
+document.querySelector('#fitAll').onclick=fitDay;
+document.querySelector('#showRoute').onchange=()=>selectedDay==='fri'?showFri():selectedDay==='sat'?showSat():selectedDay==='sun'?showSun():selectedDay==='mon'?showMon():showThu();
+document.querySelector('#showStops').onchange=()=>selectedDay==='fri'?showFri():selectedDay==='sat'?showSat():selectedDay==='sun'?showSun():selectedDay==='mon'?showMon():showThu();
+document.querySelector('#showLabels').onchange=()=>selectedDay==='fri'?showFri():selectedDay==='sat'?showSat():selectedDay==='sun'?showSun():selectedDay==='mon'?showMon():showThu();
+
+const originalExport=document.querySelector('#exportGeo').onclick;
+document.querySelector('#exportGeo').onclick=()=>{
+ if(selectedDay==='thu'){originalExport();return}
+ if(selectedDay==='mon'){
+  const features=[...mondayActivities.map(a=>({type:'Feature',properties:{fecha:'2026-11-16',hora:a.time,actividad:a.name,lugar:a.place,nota:a.detail,precision:'Marcador aproximado'},geometry:{type:'Point',coordinates:[a.lng,a.lat]}})),{type:'Feature',properties:{fecha:'2026-11-16',tipo:'traslados_terrestres_esquematicos',advertencia:'No representa calles ni trayecto oficial'},geometry:{type:'LineString',coordinates:mondayGround.map(c=>[c[1],c[0]])}}];
+  const u=URL.createObjectURL(new Blob([JSON.stringify({type:'FeatureCollection',features},null,2)],{type:'application/geo+json'}));
+  const a=document.createElement('a');a.href=u;a.download='ruta_papal_lunes_16_lima_callao.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(u),500);return;
+ }
+ if(selectedDay==='sun'){
+  const features=[...sundayActivities.map(a=>({type:'Feature',properties:{fecha:'2026-11-15',hora:a.time,actividad:a.name,lugar:a.place,advertencia:a.detail},geometry:{type:'Point',coordinates:[a.lng,a.lat]}})),...sundayFlights.map(coords=>({type:'Feature',properties:{fecha:'2026-11-15',tipo:'vuelo_referencial',advertencia:'Línea ilustrativa entre aeropuertos, no trayectoria real'},geometry:{type:'LineString',coordinates:coords.map(c=>[c[1],c[0]])}})),...sundayGround.map(coords=>({type:'Feature',properties:{fecha:'2026-11-15',tipo:'traslado_terrestre_referencial',advertencia:'Conexión esquemática, no ruta de calles'},geometry:{type:'LineString',coordinates:coords.map(c=>[c[1],c[0]])}}))];
+  const u=URL.createObjectURL(new Blob([JSON.stringify({type:'FeatureCollection',features},null,2)],{type:'application/geo+json'}));
+  const a=document.createElement('a');a.href=u;a.download='ruta_papal_domingo_15_cusco_pucallpa.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(u),500);return;
+ }
+ if(selectedDay==='sat'){
+  const features=[...saturdayActivities.map(a=>({type:'Feature',properties:{fecha:'2026-11-14',hora:a.time,actividad:a.name,lugar:a.place,nota:a.detail},geometry:{type:'Point',coordinates:[a.lng,a.lat]}})),...[[saturdayFlightOut,'helicoptero_ida'],[saturdayFlightBack,'helicoptero_regreso'],[[[-6.787,-79.829],[-6.929,-79.584]],'traslado_zaña']].map(([coords,tipo])=>({type:'Feature',properties:{tipo,fecha:'2026-11-14',advertencia:'Conexión esquemática, no ruta real ni itinerario vial/aéreo confirmado'},geometry:{type:'LineString',coordinates:coords.map(c=>[c[1],c[0]])}}))];
+  const u=URL.createObjectURL(new Blob([JSON.stringify({type:'FeatureCollection',features},null,2)],{type:'application/geo+json'}));
+  const a=document.createElement('a');a.href=u;a.download='ruta_papal_sabado_14_chiclayo_santa_cruz_zana.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(u),500);return;
+ }
+ const features=[...fridayActivities.map(a=>({type:'Feature',properties:{fecha:'2026-11-13',hora:a.time,nombre:a.name,lugar:a.place,advertencia:a.id==='V1'?'Marcador visual ubicado en Chiclayo para representar el vuelo desde Callao; no es su origen real.':'Coordenada aproximada, no apta para navegación'},geometry:{type:'Point',coordinates:[a.lng,a.lat]}})),{type:'Feature',properties:{fecha:'2026-11-13',tipo:'origen_vuelo_callao',advertencia:'Origen aproximado del vuelo; no incluido en el zoom inicial de Chiclayo'},geometry:{type:'Point',coordinates:[fridayActivities[0].originLng,fridayActivities[0].originLat]}},{type:'Feature',properties:{fecha:'2026-11-13',tipo:'conexiones_esquematicas_chiclayo',advertencia:'No es ruta vial ni ruta aérea exacta'},geometry:{type:'LineString',coordinates:fridayActivities.slice(1).map(a=>[a.lng,a.lat])}}];
+ const u=URL.createObjectURL(new Blob([JSON.stringify({type:'FeatureCollection',features},null,2)],{type:'application/geo+json'}));
+ const a=document.createElement('a');a.href=u;a.download='ruta_papal_viernes_13_chiclayo.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(u),500);
+};
+selectDay('thu');
+
+setDrawer(false);setLayers(false);setLegend(false);fitDay();
+requestAnimationFrame(()=>{map.invalidateSize(true);setTimeout(()=>map.invalidateSize(true),500)});
+}
+function mostrarMapaAlternativo(){
+ const parent=document.querySelector('#map');
+ const stops=[[-12.05783,-77.03801],[-12.05655,-77.03785],[-12.05295,-77.03754],[-12.05165,-77.03679],[-12.04969,-77.03638],[-12.04690,-77.03557],[-12.04650,-77.03270],[-12.04535,-77.03133]];
+ const places=[[-12.04535,-77.03043,'1'],[-12.04562,-77.03000,'2'],[-12.04515,-77.03067,'3'],[-12.06715,-77.03378,'4'],[-12.0741,-77.0418,'5']];
+ const nunci=[-12.0710,-77.0413],pts=stops.concat(places,[nunci]), ys=pts.map(p=>p[0]),xs=pts.map(p=>p[1]),miY=Math.min(...ys)-.002,maY=Math.max(...ys)+.002,miX=Math.min(...xs)-.004,maX=Math.max(...xs)+.004;
+ const xy=p=>[(p[1]-miX)/(maX-miX)*900, (maY-p[0])/(maY-miY)*900];
+ const poly=stops.map((p,i)=>xy(p).join(',')).join(' ');
+ const t1=xy(nunci),t2=xy(stops[0]),t3=xy(places[3]);const [sx,sy]=xy(stops[7]),[ex,ey]=xy(places[3]);const transferSvg=`<line x1="${t1[0]}" y1="${t1[1]}" x2="${t2[0]}" y2="${t2[1]}" stroke="#2f8f83" stroke-width="8" stroke-dasharray="8 12"/><line x1="${sx}" y1="${sy}" x2="${ex}" y2="${ey}" stroke="#2f8f83" stroke-width="8" stroke-dasharray="10 10"/><line x1="${t3[0]}" y1="${t3[1]}" x2="${t1[0]}" y2="${t1[1]}" stroke="#2f8f83" stroke-width="8" stroke-dasharray="8 12"/>`;const marks=places.map(p=>{const [x,y]=xy(p);return `<circle cx="${x}" cy="${y}" r="15" fill="#205a49" stroke="white" stroke-width="4"/><text x="${x}" y="${y+5}" fill="white" text-anchor="middle" font-size="15" font-weight="bold">${p[2]}</text>`}).join('');
+ const [cx,cy]=xy(stops[0]),[nx,ny]=xy(stops[4]),[px,py]=xy(stops[7]);
+ parent.innerHTML=`<svg viewBox="0 0 900 900" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block;background:#e9f0e8" role="img" aria-label="Esquema de la ruta papal en Lima"><defs><pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M90 0H0V90" fill="none" stroke="#c8d7cc" stroke-width="3"/></pattern></defs><rect width="900" height="900" fill="url(#grid)"/><path d="M0 180L900 260M100 0L400 900M650 0L800 900M0 610L900 510" stroke="#fdfdfb" stroke-width="30"/><polyline points="${poly}" fill="none" stroke="white" stroke-width="19" stroke-linejoin="round" stroke-linecap="round"/><polyline points="${poly}" fill="none" stroke="#2f8f83" stroke-width="11" stroke-dasharray="22 12" stroke-linecap="round" stroke-linejoin="round"/>${transferSvg}${marks}<circle cx="${t1[0]}" cy="${t1[1]}" r="17" fill="#1c6d99" stroke="white" stroke-width="4"/><text x="${t1[0]+22}" y="${t1[1]}" font-size="20" font-weight="bold" fill="#1c6d99">Nunciatura · salida / descanso</text><g font-family="Arial" font-size="23" fill="#29483e" font-weight="bold"><text x="${cx+20}" y="${cy+35}">Centro Cívico</text><text x="${nx+25}" y="${ny-25}">Las Nazarenas</text><text x="${px+25}" y="${py+25}">Plaza Mayor</text><text x="${ex+25}" y="${ey-16}">Estadio Nacional</text></g></svg>`;
+ const info=document.createElement('div');info.className='map-error';info.style.cssText='inset:auto 9px 9px 9px;display:block;padding:0;background:none;pointer-events:none';info.innerHTML='<div class="map-error-content" style="margin:auto;max-width:520px;padding:10px 14px;font-size:12px"><strong style="font-size:13px;margin:0">Vista esquemática disponible</strong> No se pudo cargar Leaflet desde Internet. El recorrido verde turquesa es referencial, no un mapa vial. Para ver calles, conecta a Internet y vuelve a abrir el archivo.</div>';parent.parentElement.appendChild(info);
+ document.querySelector('#agenda').innerHTML='<p style="padding:12px;font-size:13px">Agenda en el encabezado del recorrido. Para utilizar las funciones interactivas, abre el HTML con acceso a Internet.</p>';
+ for(const id of ['fitRoute','fitAll','exportGeo','showRoute','showStops','showLabels','basemap']){let el=document.getElementById(id);if(el)el.disabled=true;}
+ const side=document.getElementById('side'),overlay=document.getElementById('drawerBackdrop');
+ const toggle=()=>{side.classList.toggle('closed');overlay.classList.toggle('open',!side.classList.contains('closed'))};
+ document.getElementById('mobileAgenda').onclick=toggle;document.getElementById('toggleSide').onclick=toggle;document.getElementById('closeMobileAgenda').onclick=toggle;overlay.onclick=toggle;
+ if(matchMedia('(max-width:760px)').matches)side.classList.add('closed');
+}
+(function cargarLeaflet(){
+ const cdns=['https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js','https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'];
+ let n=0;
+ function intentar(){if(window.L){iniciarGeoportal();return}if(n>=cdns.length){mostrarMapaAlternativo();return}const sc=document.createElement('script');sc.src=cdns[n++];sc.onload=()=>window.L?iniciarGeoportal():intentar();sc.onerror=intentar;document.body.appendChild(sc)}intentar();
+})();
+</script></body></html>
